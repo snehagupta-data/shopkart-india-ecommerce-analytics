@@ -1006,8 +1006,8 @@ ShopKart_India_Analytics/
 ├── .gitignore
 │
 ├── powerbi/
-│   ├── ShopKart_India_Ecommerce_Analytics.pbix
-│   └── dashboard_preview.pdf
+│   ├── E-commerce Profitability & Growth Analytics.pbix
+│   └── E-commerce Profitability & Growth Analytics.pdf
 │
 ├── sql/
 │   ├── 01_schema.sql
@@ -1089,7 +1089,7 @@ If your local folder structure differs, update the dataset paths inside the note
 Open:
 
 ```text
-powerbi/ShopKart_India_Ecommerce_Analytics.pbix
+powerbi/E-commerce Profitability & Growth Analytics.pbix
 ```
 
 Confirm the source paths and refresh the model if required.

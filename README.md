@@ -498,7 +498,24 @@ The resulting customer segments include:
 
 # 📈 Power BI Dashboard
 
-The final Power BI report contains **8 primary analytical pages** supported by drill-through/detail pages.
+The final Power BI report contains a **Home page** and **8 primary analytical pages** supported by drill-through/detail pages.
+
+---
+
+## 00 — Home
+
+The Home page introduces ShopKart India, the central business problem and the available data, and acts as the navigation hub for all analytical pages.
+
+It includes:
+
+- About ShopKart India
+- Business Problem Statement and Objective
+- Available Data Overview (12 PostgreSQL tables)
+- Page navigation
+
+### Business Question
+
+> **What is ShopKart India, and what problem does this analysis solve?**
 
 ---
 
@@ -989,8 +1006,8 @@ ShopKart_India_Analytics/
 ├── .gitignore
 │
 ├── powerbi/
-│   ├── ShopKart_India_Ecommerce_Analytics.pbix
-│   └── dashboard_preview.pdf
+│   ├── E-commerce Profitability & Growth Analytics.pbix
+│   └── E-commerce Profitability & Growth Analytics.pdf
 │
 ├── sql/
 │   ├── 01_schema.sql
@@ -1014,6 +1031,7 @@ ShopKart_India_Analytics/
 │   └── data_dictionary.md
 │
 └── images/
+    ├── home.png
     ├── executive_command_center.png
     ├── revenue_growth.png
     ├── profitability.png
@@ -1071,7 +1089,7 @@ If your local folder structure differs, update the dataset paths inside the note
 Open:
 
 ```text
-powerbi/ShopKart_India_Ecommerce_Analytics.pbix
+powerbi/E-commerce Profitability & Growth Analytics.pbix
 ```
 
 Confirm the source paths and refresh the model if required.
@@ -1081,6 +1099,10 @@ The Power BI report contains the complete interactive dashboard and drill-throug
 ---
 
 # 📷 Dashboard Preview
+
+## Home
+
+![Home](images/home.png)
 
 ## Executive Command Center
 

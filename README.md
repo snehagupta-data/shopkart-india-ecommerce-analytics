@@ -1108,6 +1108,7 @@ The Power BI report contains the complete interactive dashboard and drill-throug
 
 ![Executive Command Center](images/executive_command_center.png)
 
+
 ## Revenue & Growth Intelligence
 
 ![Revenue & Growth Intelligence](images/revenue_growth.png)
